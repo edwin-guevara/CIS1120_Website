@@ -1,0 +1,21 @@
+#home h1,
+p {
+  text-align: center;
+}
+
+#home a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#home a:link {
+  color: #740000;
+}
+
+#home a:visited {
+  color: #550000;
+}
+
+#home a:hover {
+  color: #920012;
+}

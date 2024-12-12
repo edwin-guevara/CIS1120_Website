@@ -1,0 +1,60 @@
+.album-date {
+  font-weight: bold;
+}
+
+.featured-artist {
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+}
+
+#albums a:link {
+  color: #740000;
+}
+
+#albums a:visited {
+  color: #550000;
+}
+
+#albums a:hover {
+  color: #920012;
+}
+
+#albums {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+#albums .column {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+#albums li {
+  list-style-type: none;
+}
+
+@media (min-width: 599px) {
+  #albums {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  #albums .column {
+    margin-right: -130px;
+  }
+}
+
+@media (min-width: 1025px) {
+  #albums .column {
+    margin-right: -250px;
+  }
+}
